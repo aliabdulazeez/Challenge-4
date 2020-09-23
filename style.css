@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: bisque;
+ 
     font-family: 'Libre Franklin', sans-serif;
 
 }
@@ -15,7 +15,7 @@ body{
     max-width: 1440px;
     background-color: #ffffff;
     height: 100vh;
-    margin: 0 auto;
+    margin: 5rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,8 @@ body{
 }
 
 .logo{
-    margin: 25px;
+    margin: 40px 0 25px 0;
+
 }
 
 h1{
@@ -37,9 +38,51 @@ h3{
 
 
 .email{
-    margin: 25px 0 40px 0;
+    max-width: 400px;
+    width: 100%;
+    margin: 25px 30px 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 
 }
+
+.input{
+    width: 100%;
+    max-width: 20rem;
+    height: 2.5rem;
+    border: 1px solid rgb(83, 80, 80);
+    border-radius: 30px;   
+    margin-right: 20px;
+    padding: 5px 5px 5px 10px;
+}
+.input:focus{
+    outline: none;
+}
+
+
+#submit-btn{
+    width: 30%;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: hsl(223, 87%, 63%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#submit-btn:focus{
+    outline: none;
+}
+
+#submit-btn:hover{
+    background-color: hsl(223, 73%, 47%); 
+}
+
+
 
 .main-img{
     max-width: 45rem;
@@ -50,6 +93,31 @@ h3{
     width: 100%;
 }
 
+
+
+footer{
+    max-width: 50rem;
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+    font-size: 15px;
+}
+
+.social a{
+    padding: 10px;
+    font-size: 30px;
+    color: hsl(223, 61%, 48%);
+}
+
+.social a:hover{
+    color: hsl(223, 68%, 37%);
+}
+
+.social{
+    margin: 30px 0 30px 0;
+}
 
 
 
