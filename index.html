@@ -17,11 +17,20 @@
         <h1>We are launching <span>soon!</span></h1>
         <h3>Subscribe and get notified</h3>
 
+        
+        <form action="/"></form>
         <div class="email">
 
-             <input class="input" type="email" placeholder="Your email address..." required>
+             <input id="input"  type="text" placeholder="Your email address..." >
              <input id="submit-btn" type="submit" value="Notify me">
+
+             <div id="hidden">
+                <h6>Please enter a valid email!</h6>
+             </div>
         </div>
+
+    
+        
 
         <div class="main-img">
             <img src="/images/illustration-dashboard.png" alt="loading image">
@@ -47,5 +56,6 @@
 
     </div>
     
+    <script src="main.js"></script>
 </body>
 </html>

@@ -44,11 +44,18 @@ h3{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-
 }
 
-.input{
+#hidden{
+    display: none;
+    position: absolute;
+    width: 25rem;
+    transform: translate(1rem, 2.5rem);
+    color: red;
+    font-size: 20px;
+}
+
+#input{
     width: 100%;
     max-width: 20rem;
     height: 2.5rem;
@@ -56,10 +63,15 @@ h3{
     border-radius: 30px;   
     margin-right: 20px;
     padding: 5px 5px 5px 10px;
+
 }
-.input:focus{
+#input:focus{
     outline: none;
 }
+
+.place-class::-webkit-input-placeholder {
+    color: #cc0101
+ }
 
 
 #submit-btn{
